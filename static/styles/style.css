@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.number {
+    text-align: right;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.hero .text-1 {
+    font-size: 72px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 70px;
+}
+
+.hero .text-2 {
+    text-align: right;
+    display: flex;
+    flex-direction: column-reverse;
+    text-decoration: underline;
+}
+
+.hero .img-1 img {
+    width: 650px;
+    height: 800px;
+    float: right;
+}
+
+.hero .img-2 img {
+    width: 320px;
+}
+
+.hero .info p {
+    height: 40%;
+}
+
+.hero .info .img-2 {
+    height: 60%;
+}
+
+.hero {
+    margin-bottom: 120px;
+}
+
+.about .text-1 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.about .text-1-1 {
+    display: none;
+}
+
+.about .text-3-1 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.about .text-3-2 {
+    max-width: 150px;
+}
+
+.about {
+    margin-bottom: 120px;
+}
+
+.steps .text-2 {
+    border-bottom: solid grey 2px;
+    padding-bottom: 10px;
+}
+
+.steps .text-1 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.steps .text-2-1 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.steps {
+    margin-bottom: 120px;
+}
+
+.projects .text-1 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.projects .carusel-1 img{
+    max-height: 530px;
+    min-width: 100%;
+}
+
+.projects .carusel-2 {
+    display: none;
+}
+
+.projects {
+    margin-bottom: 120px;
+}
+
+.testimonials .text-1 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1px;
+} 
+
+.testimonials .block {
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid grey 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 350px;
+    margin: 10px 0;
+}
+
+.testimonials .block img {
+    width: 40px;
+    height: 30px;
+    margin: 40px 0;
+}
+
+.testimonials .text-2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.testimonials .text-3 {
+    text-align: center;
+}
+
+.testimonials {
+    margin-bottom: 120px;
+}
+
+.form .img{
+    max-width: 500px;
+    min-width: 500px;
+    max-height: 500px;
+}
+
+.form .text-1 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1px;
+} 
+
+.form .block {
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.form .button-1 {
+    background-color: #212529;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.form .button-2 {
+    display: flex;
+    cursor: pointer;
+}
+
+.form .button-2 img{
+    width: 150px;
+    transform: translateX(-10px);
+    border-radius: 5px;
+}
+
+.form {
+    margin-bottom: 120px;
+}
+
+.footer .foot-1 .text-1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    margin:0;
+}
+
+.footer .foot-1 .p{
+    display: flex;
+}
+
+.footer .foot-2 {
+    display: none;
+}
+
+
+@media (max-width: 1024px){
+    .hero .img-1 img {
+        width: 450px;
+        height: 800px;
+        float: right;
+    }
+
+    .projects .carusel-1 img{
+        max-height: 400px;
+        max-width: 100%;
+    }
+
+    .form .img{
+        max-width: 500px;
+        min-width: 400px;
+        max-height: 500px;
+    }
+}
+
+@media (max-width: 768px){
+    .hero .text-1 {
+        font-size: 2rem;
+    }
+    .hero .text-2 {
+        text-align: left;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    .hero .img-1 img {
+        width: 100%;
+        height: 600px;
+    } 
+    .hero .img-2 img {
+        display: none;
+    }
+
+
+    .about .text-1-1 {
+        font-size: 48px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        display: block;
+    }
+
+    .about .text-1 {
+        display: none;
+    }
+    
+    .about .text-3-1 {
+        font-weight: 400;
+        font-size: 28px;
+    }
+    
+    .about .text-3-2 {
+        max-width: 150px;
+    }
+
+    .projects .carusel-1 {
+        display: none;
+    }
+    .projects .carusel-2 {
+        display: block;
+    }
+
+    .projects .carusel-2 img{
+        max-height: 600px;
+    }
+
+    .form .img{
+        display: none;
+    }
+
+    .form .text-1 {
+        font-size: 32px;
+    }
+
+    .footer .foot-1 {
+        display: none;
+    }
+    
+    .footer .foot-2 {
+        display: flex;
+        text-align: center;
+    }
+
+    .footer .foot-2 .p{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 425px){
+    .projects .carusel-2 img{
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 320px){
+    .projects .carusel-2 img{
+        max-height: 300px;
+    }
+}
